@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body {
+    margin:0px;
+    background-image:url("background.png");
+    background-attachment: fixed; 
+    background-size: cover;
+}
+body header{
+    
+    color:rgb(50, 212, 21);
+    height: 75px;
+}
+header h1{
+    display:inline-flex;
+    float:inline-start;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: 20px;
+    
+}
+
+#loc{
+    margin-right:20px;
+}
+.lg-input{
+    width:600px;
+}
+#search,#login,#cart{
+    margin-right: 60px;
+}
+header span{
+    display: inline-flex;
+}
+main{
+    display: inline-block;
+    margin:auto;
+}
+header h5{
+    margin:0px;
+    margin-left: 30px;
+    font-family: 'Alkalami';
+    font-weight: 400;
+    
+}
+main h4{
+    margin-top:0px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    margin-left: 130px;
+}
+
+main section{
+    max-width:33%;
+    display:inline-block;
+    padding: 30px;
+    margin: 30px;
+    margin-top:20px;
+    padding-top:20px;
+    background-color:rgba(237, 243, 238, 0.5) ;
+    box-shadow: 5px 5px 25px 1px rgb(0, 0, 0);
+}
+
+.callimg{
+    width: 1450px;
+    height: 500px;
+    padding-right: 20px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.section-image{
+    width: 350px;
+    height: 230px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.section-off{
+    color: rgb(255, 0, 0);
+    font-size: larger;
+    margin-left: 110px;
+}
+.section-seemore{
+    margin-left: 130px;
+}
+header section{
+    margin-left:25px;
+    margin-top:11px;
+}
+main h1{
+    text-align: center;
+    font-family: 'Alkalami';
+    font-weight:500;
+    color: rgb(50, 212, 21);
+    margin-bottom: 0px;
+}
+
+
+
